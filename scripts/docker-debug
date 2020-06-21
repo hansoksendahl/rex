@@ -1,0 +1,5 @@
+source ./scripts/docker-config
+
+docker run \
+  -v $(pwd):/app \
+  -it ${DOCKER_CONTAINER_NAME} sh

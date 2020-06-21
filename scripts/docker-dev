@@ -1,0 +1,6 @@
+source ./scripts/docker-config
+
+docker run \
+  -v $(pwd):/app \
+  -p ${DOCKER_PORT}:${DOCKER_PORT} \
+  -it ${DOCKER_CONTAINER_NAME} sh ./scripts/start

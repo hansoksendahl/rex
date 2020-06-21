@@ -1,0 +1,5 @@
+source ./scripts/docker-config
+
+docker build \
+  --build-arg DOCKER_PORT=${DOCKER_PORT} \
+  -t ${DOCKER_CONTAINER_NAME} .
