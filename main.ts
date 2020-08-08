@@ -1,5 +1,5 @@
 import { serve } from './deps.ts';
-import main from './src/server/app/mod.ts';
+import main from './src/typescript/server/app/mod.ts';
 
 const port = Deno.env.get('DOCKER_PORT') || 0;
 const server = serve({ port: +port });

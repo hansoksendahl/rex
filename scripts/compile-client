@@ -1,0 +1,1 @@
+deno bundle /app/src/typescript/client/main.ts ./lib/javascript/bundle.js --config client.tsconfig.json

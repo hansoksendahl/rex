@@ -1,3 +1,4 @@
+source /app/scripts/compile-client
 deno run \
   --allow-net \
   --allow-read \
